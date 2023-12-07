@@ -66,7 +66,7 @@ class Trees (location.SubLocation):
         self.item_in_clothes = items.Flintlock()
 
         self.event_chance = 50
-        self.events.append(man_eating_monkeys.ManEatingMonkeys())
+        self.events.append(2)
         self.events.append(drowned_pirates.DrownedPirates())
 
     def enter (self):
